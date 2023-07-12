@@ -25,6 +25,7 @@
                             <div class="form-group">
                                 <label>Browse File <em>(File Type *.xlsx)</em></label>
                                 <input type="file" class="form-control form-control-sm" name="file" required>
+                                <p><a href="{{ asset('format-upload.xlsx') }}">Format Upload</a></p>
                             </div>
                         </div>
                         

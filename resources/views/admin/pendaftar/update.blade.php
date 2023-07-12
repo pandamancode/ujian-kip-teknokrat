@@ -15,7 +15,7 @@
                                 <label>No. Telp / WhatsApp</label>
                                 <input type="text" name="telp"
                                     class="form-control form-control-sm form-control form-control-sm-sm"
-                                    autocomplete="off" value="{{ $data_pendaftar->no_telepon }}" required placeholder="No.Telp/WhatsApp" required>
+                                    autocomplete="off" value="{{ $data_pendaftar->no_telepon }}" readonly placeholder="No.Telp/WhatsApp" required>
                             </div>
                         </div>
 
